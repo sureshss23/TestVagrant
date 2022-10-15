@@ -13,5 +13,5 @@ In Runner Class using extends keyword i inherit the methods from baseclass and i
 create object for POM in runnerclass and customize my script(code).
 I took releasedate and country from IMBb and wikipedia website correspondingly and stored in String make it as a public static in class level.I collect four details vice versa..
 Using testNg annotation @Test here and also use priority for customize my execution
-Here two @Test  method for IMDB_Data and WIki_Dta & @Test(priority=1) for Validation and @Afterclass for browserclose
-After i runwith Testng two test cases are pass and one is failed because expected release date is mismatch.
+Here two @Test  method for IMDB_Data and WIki_Data to get the task details & @Test(priority=1) for Validation to validate the get details and @Afterclass method for browserclose
+After i start to runwith Testng my results is two test cases are pass and one is failed because expected release date is mismatch.
